@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portafolio-MarielleAC</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-------------MENU DEL ENCABEZADO--------------->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Marielle</a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <!--<li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>-->
+                    <li><a href="#curriculum" onclick="seleccionar()">MI CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+    </div>
+
+
+
+    <!--------------SECCION DEL INICIO----------------->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <!-- Mi foto de perfil-->
+            <div class="contenedor-img">
+                <img src="img/MARIELLE ABIGAIL.jpeg" alt="">
+            </div>
+
+            <h1>MARIELLE ABIGAIL AKE CARRILLO</h1>
+            <h2>TSU Área Entornos Virtuales y Negocios Digitales</h2>
+            <div class="redes">
+                <!-- <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>-->
+
+                <!--AGREGAR CORREO DE CONTACTO-->
+                <a href="mailto:marielleacarrillo@gmail.com">
+                    <i class="fa-regular fa-envelope"></i>
+                
+                </a> <!--correo-->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!----------------SECCION SOBRE MI---------------->
+    <seccion id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>SOBRE MI</h2>
+            <p><span>¡Hola soy Marielle!</span>
+                Soy una persona que le apasiona el diseño y la creatividad. A lo largo de
+                mi carrera he trabajado en diversos proyectos como la creación de logos,
+                videojuegos, desarrollo web e ilustración.
+            </p>
+
+            <div class="fila">
+                <!--MIS DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento</strong>
+                            26-02-2004
+                        </li>
+
+                        <li>
+                            <strong>Teléfono celular</strong>
+                            999-337-4254
+                        </li>
+
+                        <li>
+                            <strong>Email</strong>
+                            marielleacarrillo@gmail.com
+                        </li>
+
+                        <!--<li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            123 San Luis, Argentina
+                        </li>
+
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>-->
+
+                    </ul>
+                </div>
+
+
+                <!--INTERESES-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+
+                        <!--<div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>-->
+
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LEER</span>
+                        </div>
+
+                        <!--<div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>-->
+
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--DESCARGAR CV-->
+            <a href="MiCV/CV MARIELLE ABIGAIL AKE CARRILLO.pdf" download="CV MARIELLE ABIGAIL AKE CARRILLO">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+
+            </a>
+        </div>
+    </seccion>
+
+
+
+    <!-------------------SECCION SKILLS------------------->
+    <!-- <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+
+                
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+
+
+
+    <!----------------SECCION CURRICULUM ------------------>
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+
+                    <h3>Software</h3>
+                    <div class="item izq">
+                        <!-- <h4>Unity 2D y 3D</h4>-->
+                        <span class="casa">Unity</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Entorno de desarrollo multiplataforma que permite crear aplicaciones y juegos 2D y 3D, 
+                        realidad virtual (VR) y realidad aumentada (AR); utilizando principalmente 
+                        el lenguaje de programación C#.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <!--<h4>Arte y Multimedia</h4>-->
+                        <span class="casa">Visual Studio Code</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Editor de código fuente para escritura y depuración de código:
+                            HTML, CSS, C#, PHP, JavaScript y TypeScript.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <!--<h4>Arte y Multimedia</h4>-->
+                        <span class="casa">Blender</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Creación de modelos tridimensionales, animación y renderizado.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <!--<h4>Arte y Multimedia</h4>-->
+                        <span class="casa">Krita</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Programa de dibujo digital y pintura artística, para creación
+                            de ilustraciones digitales, concept art, diseño, etc.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> 
+                </div>
+
+
+                
+                <div class="col derecha">
+                    <!--<h3>Experiencia de trabajo</h3>-->
+                    <br><br>
+                    <div class="item der">
+                        <!--<h4>Front Developer</h4>-->
+                        <span class="casa">Adobe Substance 3D Painter</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Herramienta profesional para texturizar modelos 3D.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <!--<h4>Front Developer</h4>-->
+                        <span class="casa">Inkscape</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Diseño de logos, creación de botones y pantallas para videojuegos.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <!--<h4>Front Developer</h4>-->
+                        <span class="casa">Figma</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Editor de diseño vectorial, especializado en interfaces digitales 
+                            y creación de prototipado interactivo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <!--<h4>Front Developer</h4>-->
+                        <span class="casa">Ibis Paint X</span>
+                        <!--<span class="fecha">2005 - 2008</span>-->
+                        <p>Aplicación de dibujo digital versátil, para la creación de ilustraciones,
+                            arte conceptual, diseños, logos, etc.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-----------------SECCION PORTFOLIO------------------->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+
+            <h2>PORTAFOLIO</h2>
+            <h3>VIDEOJUEGOS</h3> <!--Videojuegos creados-->
+            <div class="galeria">
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://mariellem.itch.io/expedicion-espacial" target="_blank">
+                        <img src="img/LOGO REDISEÑO FINAL.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>Expedición Espacial</h3>
+                            <p>Videojuego 3D</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://link133.itch.io/mariposasos" target="_blank">
+                        <img src="img/MARIPOSA SOS.jpeg" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>Mariposa SOS</h3>
+                            <p>Videojuego 2D</p>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://mariellem.itch.io/expedicion-espacial" target="_blank">
+                        <img src="img/LOGO REDISEÑO FINAL.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>Expedición Espacial</h3>
+                            <p>Una importante astronauta de la estación espacial fue enviada
+                                para la investigación más detallada sobre el espacio exterior a
+                                los lugares que visite.</p>
+                        </div>
+                    </a>
+                </div>
+
+
+                
+
+            </div>
+
+
+            <br><br>
+            <h3>APLICACIONES VR</h3>
+            <div class="galeria">
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://gaspar-valdez.itch.io/yucatour-vr" target="_blank">
+                        <img src="img/YucaTour VR.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>YucaTourVR</h3>
+                            <p>¡Vive la mejor experiencia turística de Yucatán en VR!</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://gaspar-valdez.itch.io/yucatour-vr" target="_blank">
+                        <img src="img/YucaTour VR.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>YucaTourVR</h3>
+                            <p>¡Vive la mejor experiencia turística de Yucatán en VR!</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://gaspar-valdez.itch.io/yucatour-vr" target="_blank">
+                        <img src="img/YucaTour VR.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>YucaTourVR</h3>
+                            <p>¡Vive la mejor experiencia turística de Yucatán en VR!</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <br><br>
+            <h3>ALEATORIOS</h3>
+            <div class="galeria">
+                <div class="proyecto">
+                    <!--Link que muestra el proyecto realizado-->
+                    <a href="https://mmariellemm.itch.io/ruleta-el-circo-emplumado" target="_blank">
+                        <img src="img/RULETA EL CIRCO EMPLUMADO.png" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>Ruleta <br> El Circo Emplumado</h3>
+                            <p>¿Qué personaje <br> emplumada(o) eres?</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <!--<br><br>
+            <h2>MI PORTAFOLIO DE ARTE</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    Link que muestra el proyecto realizado
+                    <a href="https://ko-fi.com/mmariellemm" target="_blank">
+                        <img src="img/ARTE.jpg" alt="Expedición Espacial">
+
+                        <div class="overlay">
+                            <h3>El Arte de la <br> imaginación</h3>
+                            <p>La inspiración puede <br> venir desde lo más simple.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+
+
+    <!------------------SECCION CONTACTO---------------------->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número de celular">
+                    <input type="text" placeholder="Correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!-- Mapa -->
+                <!-- <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2384 - 4343443
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cw@example.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
