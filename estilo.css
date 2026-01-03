@@ -96,12 +96,13 @@ html {
 }
 
 .inicio .contenido-banner img {
-    margin-top: 40px;
     border: 10px solid #1CB698;
     display: block;
-    width: 80%;
-    margin: auto;
-    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    object-fit: contain;
 }
 
 .inicio .contenido-banner h1 {
