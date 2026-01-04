@@ -718,7 +718,7 @@ a {
     justify-content: center;
     transition: 1s;
     font-size: 18px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     opacity: 0;
 }
 
